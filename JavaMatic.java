@@ -200,6 +200,8 @@ public class JavaMatic {
 		return inventory;
 	}
 	
+//	Given below are alternate implementations for processing a user's command (isValidOrder uses a try-catch block)
+//	
 //	/**
 //	 * Processes a user's input command
 //	 * Uses Version 2 of ValidOrder
