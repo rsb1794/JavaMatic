@@ -17,3 +17,5 @@ The command-line application was tested successfully on windows (not via Eclipse
 When running the JUnit tests via Eclipse on Windows, the tests will fail because the line break characters on windows are 
 represented with "\r\n" instead of "\n" as on Unix/MacOS. This can be fixed by replacing all "\n" with "\r\n" on Windows and 
 then (re-)running the test class.
+Alternatively, the unit test class could be modified to use 'System.getProperty("line.separator")' for a system-independent 
+new-line character. 
